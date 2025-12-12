@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const MONGODB_URI = 'mongodb+srv://dipikadeepsikha:Dip%40employee1@cluster1.cydtcao.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1';
+const MONGODB_URI = 'mongodb://127.0.0.1:27017/employee_performance';
 
 const connectDB = async () => {
     try {
@@ -12,4 +12,4 @@ const connectDB = async () => {
     }
 };
 
-module.exports = connectDB; 
+module.exports = connectDB;
